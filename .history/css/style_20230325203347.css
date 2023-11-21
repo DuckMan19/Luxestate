@@ -1,0 +1,162 @@
+img {
+  max-width: 100%;
+}
+
+body {
+  font-family: Montserrat1;
+  font-size: 13px;
+  color: #1f373d;
+}
+
+.container {
+  max-width: 1140%;
+  padding-left: 15%;
+  padding-right: 15%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header {
+  width: 100%;
+  height: 76px;
+  background: #f5f5f5;
+  /* position: fixed;
+  top: 0; */
+}
+
+.header .container {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header .menu {
+  display: flex;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.header .menu li a {
+  text-decoration: none;
+  color: #1f373d;
+  padding: 15px;
+}
+
+.header .menu li a:hover {
+  color: #ffcc01;
+}
+
+.header .cta {
+  display: flex;
+}
+
+.header .cta .btnmain {
+  text-decoration: none;
+  color: #1f373d;
+  height: 40px;
+  padding: 0 21px;
+  background: #ffcc01;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.header .cta .btnmain:hover {
+  background-color: #f4c81b;
+}
+
+.header .cta .btnmain.--transparent {
+  background: none;
+}
+
+
+.header .cta .btnmain.--transparent:hover {
+  color: #ffcc01;
+}
+
+/*header*/
+
+
+/*company*/
+.sccompany {
+  height: 580px;
+  background-color: #ffff;
+  display: flex;
+  left: 0;
+}
+
+.sccompany .container {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.company__content {
+  max-width: 540px;
+  white-space: pre-line;
+  margin-top: -90px;
+}
+
+.company__content .heading {
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.company_content .text p {
+  line-height: 30px;
+}
+
+.company__box {
+  max-width: 444px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 44px;
+}
+
+.company__box .box {
+  width: 200px;
+  height: 200px;
+  background-color: #f6f5f4;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.company__box .box .number {
+  font-size: 40px;
+  color: #ffcc01;
+}
+
+.company__box .box .text {
+  font-size: 14px;
+  color: #1f373d;
+}
+
+/* appartment */
+.appartments {
+  height: 1458px;
+  background-color: #f6f5f4;
+  display: flex;
+  left: 0;
+}
+
+.appartments .textbox {
+  padding: 86px 530px 0px 0px;
+}
+
+.appartments .textbox .heading {
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.appartments .listapp {
+  padding-top: 66px
+}
+
+.appartments .item

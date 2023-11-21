@@ -1,0 +1,81 @@
+img {
+	max-width: 100%;
+}
+
+body {
+	font-family: Montserrat1;
+	font-size: 13px;
+	color: #1f373d;
+}
+
+.container {
+	max-width: 1140%;
+	padding-left: 15%;
+	padding-right: 15%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.header {
+	width: 100%;
+	height: 76px;
+	background: #f5f5f5;
+	position: fixed;
+	top: 0;
+}
+
+.header .container {
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header .menu {
+	display: flex;
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%);
+}
+
+.header .menu li a {
+	text-decoration: none;
+	color: #1f373d;
+	padding: 15px;
+}
+
+.header .menu li a:hover {
+	color: #ffcc01;
+}
+
+.header .cta {
+	display: flex;
+}
+
+.header .cta .btnmain {
+	text-decoration: none;
+	color: #1f373d;
+	height: 40px;
+	padding: 0 21px;
+	background: #ffcc01;
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
+}
+
+.header .cta .btnmain.--transparent {
+	background: none;
+}
+
+.header .cta .btnmain:hover {
+	background-color: #f4c81b;
+}
+
+.header .cta .btnmain.--transparent:hover {
+	color: #ffcc01;
+}
+
+.main .company {
+	width: 100%;
+	height: 580px;
+}
